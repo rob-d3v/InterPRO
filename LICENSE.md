@@ -1,6 +1,6 @@
 # CONTRATO DE LICENÇA DO USUÁRIO FINAL (EULA) - InterPRO
 
-**Data de Vigência: 02 de março de 2025**
+**Data de Vigência: 06 de março de 2025**
 
 ## ACORDO DE LICENÇA DE SOFTWARE
 
@@ -31,10 +31,33 @@ f) Usar o Software para fins ilegais ou não autorizados.
 ## 3. MODELO DE USO E DOAÇÕES
 
 ### 3.1 Versão Gratuita
-O Software possui uma versão gratuita com funcionalidades básicas que podem ser utilizadas sem custo.
+O Software possui uma versão gratuita com funcionalidades básicas que podem ser utilizadas sem custo, porém com limitações como delay proposital e número limitado de idiomas mensais.
 
-### 3.2 Doações e Benefícios
-O desenvolvimento contínuo e a manutenção do Software são apoiados por doações voluntárias. Os usuários que optarem por fazer doações podem receber benefícios adicionais, incluindo funcionalidades estendidas do Software. Estes benefícios são concedidos a critério do Licenciante e não constituem uma venda ou transferência de direitos adicionais sobre o Software.
+### 3.2 Sistema de Pontos de Doação
+O desenvolvimento contínuo e a manutenção do Software são apoiados por doações voluntárias, que são convertidas em pontos dentro do sistema. Os usuários acumulam pontos através de:
+
+a) Doações diretas via PIX ou cartão de crédito (1 real = 1 ponto)
+b) Contribuições para o projeto (correções de bugs, melhorias, traduções)
+c) Participação ativa na comunidade e fóruns
+d) Indicação
+
+### 3.3 Uso de Pontos e Benefícios
+Os pontos podem ser utilizados para desbloquear funcionalidades estendidas, incluindo:
+
+a) Escaneamento rápido de strings
+b) Tradutor automático com processamento paralelo
+c) Recursos de IA para coleta inteligente de textos e tradução avançada
+d) Processamento em lote de múltiplos idiomas
+e) Exportação de glossários e memórias de tradução
+
+O uso dos recursos de IA está sujeito a consumo de pontos conforme detalhado na documentação do Software. Os pontos não expiram e podem ser acumulados ao longo do tempo.
+
+### 3.4 Recursos de Inteligência Artificial
+O Software utiliza tecnologias de IA, incluindo o Claude 3.7 Sonnet, para coleta inteligente de textos e tradução avançada. Estes recursos:
+
+a) Estão disponíveis exclusivamente através do sistema de pontos de doação
+b) São fornecidos "como estão", sem garantias de precisão ou adequação
+c) Estão sujeitos à Política de Uso de IA incluída na documentação do Software
 
 ## 4. ATUALIZAÇÕES E MANUTENÇÃO
 
@@ -46,11 +69,22 @@ O Software, incluindo, mas não limitado a, todo o conteúdo, código, dados, te
 
 ## 6. COLETA E USO DE DADOS
 
+### 6.1 Política de Privacidade
 O uso do Software está sujeito à Política de Privacidade do Licenciante, que descreve como são coletados, utilizados e compartilhados os dados dos usuários. A Política de Privacidade está disponível no repositório do projeto e é parte integrante deste EULA.
+
+### 6.2 Processamento de Dados para Recursos de IA
+Ao utilizar os recursos de IA do Software:
+
+a) Você concorda que o conteúdo de seu código-fonte e arquivos de texto poderá ser processado temporariamente por sistemas de IA
+b) O Licenciante não armazena permanentemente o conteúdo processado pelos sistemas de IA
+c) O Licenciante implementa medidas de segurança razoáveis para proteger seus dados durante o processamento
 
 ## 7. ISENÇÃO DE GARANTIAS
 
 O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA" E "CONFORME DISPONÍVEL", SEM GARANTIAS DE QUALQUER TIPO, EXPRESSAS OU IMPLÍCITAS. NA MÁXIMA EXTENSÃO PERMITIDA PELA LEI APLICÁVEL, O LICENCIANTE RENUNCIA EXPRESSAMENTE A TODAS AS GARANTIAS, EXPRESSAS OU IMPLÍCITAS, INCLUINDO, MAS NÃO SE LIMITANDO A, GARANTIAS IMPLÍCITAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO.
+
+### 7.1 Isenção Específica para Recursos de IA
+OS RECURSOS DE IA SÃO FORNECIDOS "NO ESTADO EM QUE SE ENCONTRAM" E O LICENCIANTE NÃO GARANTE A PRECISÃO, COMPLETUDE, ADEQUAÇÃO OU QUALIDADE DOS RESULTADOS OBTIDOS ATRAVÉS DO USO DESTES RECURSOS. É RESPONSABILIDADE DO USUÁRIO REVISAR E VERIFICAR TODAS AS TRADUÇÕES E TEXTOS PROCESSADOS PELA IA ANTES DE SUA IMPLEMENTAÇÃO.
 
 ## 8. LIMITAÇÃO DE RESPONSABILIDADE
 
@@ -63,6 +97,9 @@ Você concorda em defender, indenizar e isentar o Licenciante, seus afiliados, l
 ## 10. RESCISÃO
 
 Este EULA permanecerá em vigor até ser rescindido por você ou pelo Licenciante. Seus direitos sob esta Licença terminarão automaticamente, sem aviso prévio, se você violar qualquer termo deste EULA. Após a rescisão, você deverá cessar todo uso do Software e destruir todas as cópias, completas ou parciais, do Software.
+
+### 10.1 Pontos de Doação após Rescisão
+Em caso de rescisão deste EULA, quaisquer pontos de doação não utilizados serão perdidos e não serão reembolsados.
 
 ## 11. LEI APLICÁVEL
 

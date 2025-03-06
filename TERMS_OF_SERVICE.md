@@ -1,6 +1,6 @@
 # TERMOS DE SERVIÇO
 ## InterPRO - Sistema de Internacionalização de Interfaces de Software
-**Última atualização: 02 de março de 2025**
+**Última atualização: 06 de março de 2025**
 
 ## 1. ACEITAÇÃO DOS TERMOS
 
@@ -10,7 +10,7 @@ O InterPRO é uma ferramenta de software para internacionalização de interface
 
 ## 2. DESCRIÇÃO DO SERVIÇO
 
-O InterPRO (Versão 2025.02.07.9) é um sistema de internacionalização de interfaces de software que oferece as seguintes funcionalidades:
+O InterPRO (Versão 2025.03.06.10) é um sistema de internacionalização de interfaces de software que oferece as seguintes funcionalidades:
 
 - Suporte para diversas linguagens de Programação/Marcação e Documentação
 - Compatibilidade multiplataforma (Windows, Linux e Mac OS)
@@ -19,6 +19,8 @@ O InterPRO (Versão 2025.02.07.9) é um sistema de internacionalização de inte
 - Interação com sistemas de CI/CD
 - Tradutor automático com suporte a múltiplos idiomas
 - Automação de testes (função prevista para futuras versões)
+- **Coleta Inteligente de Textos com IA**: Identificação contextual de strings utilizando Claude 3.7 Sonnet
+- **Tradução Avançada com IA**: Traduções de alta qualidade preservando contexto e nuances culturais
 
 ## 3. LICENÇA DE USO
 
@@ -42,22 +44,27 @@ O Aplicativo, incluindo, mas não se limitando a, software, código, design, tex
 ### 4.2 Feedback
 Se você fornecer qualquer feedback, ideias, sugestões ou recomendações ao Desenvolvedor relacionadas ao Aplicativo ("Feedback"), o Desenvolvedor terá o direito de usar livremente tal Feedback sem qualquer obrigação para com você.
 
-## 5. MODELOS DE USO, DOAÇÕES E PAGAMENTOS
+## 5. MODELOS DE USO, DOAÇÕES E PONTOS
 
 ### 5.1 Modelo de Uso
-O InterPRO possui um modo completamente gratuito com funcionalidades básicas disponíveis para todos os usuários. Recursos adicionais e benefícios são disponibilizados para apoiadores que realizam doações.
+O InterPRO possui um modo completamente gratuito com funcionalidades básicas disponíveis para todos os usuários. Recursos adicionais e benefícios, incluindo as funcionalidades de IA, são disponibilizados através do sistema de pontos de doação.
 
-### 5.2 Modelo de Financiamento
-O InterPRO é mantido através de doações voluntárias. Todas as doações são usadas para apoiar o desenvolvimento e manutenção contínuos do Aplicativo.
+### 5.2 Sistema de Pontos de Doação
+O desenvolvimento e manutenção do InterPRO são apoiados por um sistema de pontos obtidos através de doações voluntárias. Os pontos podem ser acumulados das seguintes formas:
 
-### 5.3 Processamento de Pagamentos
-As doações e pagamentos são processados através do EFI BANK, que gerencia transações via PIX e cartão. Ao realizar uma doação, você concorda com os termos e políticas do EFI BANK. Futuramente será implementado funçao de doação com BTC.
+- Doações diretas via PIX, cartão ou BTC (1 real = 1 ponto)
+- Contribuições para o projeto (correções de bugs, melhorias, traduções)
+- Participação ativa na comunidade e fóruns
 
-### 5.4 Benefícios para Doadores
-Os usuários que optam por fazer doações recebem benefícios adicionais, como recursos premium, prioridade no suporte técnico e acesso antecipado a novas funcionalidades. Estes benefícios são concedidos a critério do Desenvolvedor e podem ser modificados a qualquer momento.
+Os pontos não expiram e podem ser acumulados ao longo do tempo.
+
+O Desenvolvedor reserva-se o direito de modificar o sistema de pontos a qualquer momento.
+
+### 5.4 Processamento de Pagamentos
+As doações e pagamentos são processados através do EFI BANK, que gerencia transações via PIX e cartão. Ao realizar uma doação, você concorda com os termos e políticas do EFI BANK. Futuramente será implementada função de doação com BTC.
 
 ### 5.5 Reembolsos
-Devido à natureza dos benefícios digitais oferecidos, os reembolsos geralmente não são oferecidos. Em circunstâncias excepcionais, os pedidos de reembolso podem ser considerados caso a caso.
+Devido à natureza dos benefícios digitais oferecidos, os reembolsos geralmente não são oferecidos. Em circunstâncias excepcionais, os pedidos de reembolso podem ser considerados caso a caso. Os pontos não utilizados não são reembolsáveis.
 
 ## 6. CONTEÚDO DO USUÁRIO
 
@@ -70,18 +77,29 @@ Você concede ao InterPRO uma licença limitada para processar seu Conteúdo do 
 ### 6.3 Responsabilidade pelo Conteúdo
 Você é o único responsável por todo o Conteúdo do Usuário que processa através do Aplicativo, incluindo a legalidade e adequação de tal conteúdo.
 
+### 6.4 Processamento de Conteúdo com IA
+Ao utilizar os recursos de IA do Aplicativo:
+
+- Você concorda que seu Conteúdo do Usuário poderá ser processado temporariamente pelos sistemas de IA
+- O Desenvolvedor não armazena permanentemente o conteúdo processado pelos sistemas de IA
+- O Desenvolvedor implementa medidas de segurança razoáveis para proteger seus dados durante o processamento
+- As traduções e textos identificados pelos sistemas de IA devem ser revisados por você antes da implementação
+
 ## 7. SERVIÇOS DE TERCEIROS
 
 ### 7.1 Traduções Automáticas
-O recurso de tradução automática do Aplicativo utiliza a API do Google Tradutor para processar traduções. O uso desse recurso está sujeito aos termos e políticas do Google disponíveis em https://policies.google.com/terms.
+O recurso de tradução automática básica do Aplicativo utiliza a API do Google Tradutor para processar traduções. O uso desse recurso está sujeito aos termos e políticas do Google disponíveis em https://policies.google.com/terms.
 
-### 7.2 Autenticação e Gerenciamento de Usuários
+### 7.2 Serviços de IA
+Os recursos avançados de IA utilizam a API Claude 3.7 Sonnet da Anthropic através de infraestrutura AWS. O uso desses recursos está sujeito às políticas do InterPRO e, indiretamente, às políticas da Anthropic disponíveis em https://www.anthropic.com/policies.
+
+### 7.3 Autenticação e Gerenciamento de Usuários
 O InterPRO utiliza AWS Cognito para gerenciamento de usuários e oferece opção de autenticação através do Google. Ao usar esses métodos de autenticação, você está sujeito aos termos e políticas de privacidade desses provedores.
 
-### 7.3 Processamento de Pagamentos
+### 7.4 Processamento de Pagamentos
 O Aplicativo utiliza o EFI BANK para gerenciar pagamentos via PIX e cartão. Ao realizar uma doação, você está sujeito aos termos e políticas do EFI BANK.
 
-### 7.4 Integração com Outros Sistemas
+### 7.5 Integração com Outros Sistemas
 O Aplicativo pode ser integrado com sistemas CI/CD e outras ferramentas de terceiros. O Desenvolvedor não é responsável pelo funcionamento desses sistemas ou por quaisquer problemas decorrentes da integração.
 
 ## 8. ISENÇÕES DE RESPONSABILIDADE
@@ -99,6 +117,9 @@ O Desenvolvedor não garante que:
 - Os resultados que podem ser obtidos do uso do Aplicativo serão precisos ou confiáveis;
 - Quaisquer erros no Aplicativo serão corrigidos.
 
+### 8.4 Isenção Específica para Recursos de IA
+OS RECURSOS DE IA SÃO FORNECIDOS "NO ESTADO EM QUE SE ENCONTRAM" E O DESENVOLVEDOR NÃO GARANTE A PRECISÃO, COMPLETUDE, ADEQUAÇÃO OU QUALIDADE DOS RESULTADOS OBTIDOS ATRAVÉS DO USO DESTES RECURSOS. É RESPONSABILIDADE DO USUÁRIO REVISAR E VERIFICAR TODAS AS TRADUÇÕES E TEXTOS PROCESSADOS PELA IA ANTES DE SUA IMPLEMENTAÇÃO.
+
 ## 9. LIMITAÇÃO DE RESPONSABILIDADE
 
 EM NENHUMA CIRCUNSTÂNCIA O DESENVOLVEDOR SERÁ RESPONSÁVEL POR QUAISQUER DANOS DIRETOS, INDIRETOS, INCIDENTAIS, ESPECIAIS, EXEMPLARES OU CONSEQUENCIAIS (INCLUINDO, MAS NÃO SE LIMITANDO A, DANOS POR PERDA DE LUCROS, PERDA DE DADOS, INTERRUPÇÃO DE NEGÓCIOS OU AQUISIÇÃO DE BENS OU SERVIÇOS SUBSTITUTOS) DECORRENTES DO USO OU INCAPACIDADE DE USAR O APLICATIVO, MESMO QUE O DESENVOLVEDOR TENHA SIDO AVISADO DA POSSIBILIDADE DE TAIS DANOS.
@@ -115,9 +136,12 @@ O Desenvolvedor reserva-se o direito de modificar, suspender ou descontinuar, te
 ### 11.2 Modificações dos Termos
 O Desenvolvedor pode revisar estes Termos a qualquer momento, publicando os termos atualizados no Aplicativo ou no site associado. É sua responsabilidade verificar estes Termos periodicamente para alterações. Seu uso continuado do Aplicativo após a publicação de quaisquer alterações constitui aceitação de tais alterações.
 
+### 11.3 Modificações do Sistema de Pontos
+O Desenvolvedor reserva-se o direito de modificar o sistema de pontos, incluindo a conversão de doações para pontos, os custos de recursos em pontos e os benefícios disponíveis, a qualquer momento e sem aviso prévio.
+
 ## 12. RESCISÃO
 
-O Desenvolvedor pode, a seu exclusivo critério, encerrar seu acesso e uso do Aplicativo, com ou sem motivo, com ou sem aviso prévio, sem incorrer em responsabilidade.
+O Desenvolvedor pode, a seu exclusivo critério, encerrar seu acesso e uso do Aplicativo, com ou sem motivo, com ou sem aviso prévio, sem incorrer em responsabilidade. Em caso de rescisão, quaisquer pontos não utilizados serão perdidos e não serão reembolsados.
 
 ## 13. DISPOSIÇÕES GERAIS
 

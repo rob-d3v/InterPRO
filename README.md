@@ -1,12 +1,14 @@
-# InterPRO - Sistema de Internacionalização de Interfaces de Software
+---
 
-![Versão](https://img.shields.io/badge/versão-2025.02.07.9-blue)
+© 2025 InterPRO. Todos os direitos reservados.# InterPRO - Sistema de Internacionalização de Interfaces de Software
+
+![Versão](https://img.shields.io/badge/versão-2025.03.06.10-blue)
 ![Plataforma](https://img.shields.io/badge/plataforma-Windows%20%7C%20Linux%20%7C%20MacOS-lightgrey)
 
 
 ## 📋 Visão Geral
 
-O InterPRO é uma ferramenta definitiva para internacionalização de software, revolucionando a maneira como você adapta suas interfaces para diferentes idiomas e culturas. Transforme sua aplicação em uma solução verdadeiramente global com nossa plataforma completa de internacionalização.
+O InterPRO é uma ferramenta definitiva para internacionalização de software, revolucionando a maneira como você adapta suas interfaces para diferentes idiomas e culturas. Transforme sua aplicação em uma solução verdadeiramente global com nossa plataforma completa de internacionalização, agora potencializada com Inteligência Artificial.
 
 ![InterPRO Interface](images/screenshot.png)
 <!-- Imagem da interface do InterPRO mostrando o painel principal com opções de coleta de strings, internacionalização e o guia de utilização -->
@@ -14,12 +16,14 @@ O InterPRO é uma ferramenta definitiva para internacionalização de software, 
 ## ✨ Recursos Principais
 
 - **Suporte Multilinguagem**: Compatível com diversas linguagens de Programação, Marcação e Documentação
-- **Flexibilidade Multiplataforma**:  Windows, Linux e Mac OS
+- **Flexibilidade Multiplataforma**: Windows, Linux e Mac OS
 - **Motor de Regex Avançado**: Identificação e substituição de palavras e textos
 - **Sistema de Sincronização Inteligente**: Integração perfeita com sua estrutura de internacionalização existente
 - **Integração CI/CD**: Interação com sistemas de Integração Contínua/Entrega Contínua
 - **Tradutor Automático**: Suporte a mais de 100 idiomas para traduções rápidas
 - **Automação de Testes**: Sistema inovador de Auto-Run para testes unitários (em breve)
+- **🆕 Coleta de Textos com IA**: Identificação inteligente de conteúdo para internacionalização utilizando API de modelos de inteligência artificial
+- **🆕 Tradução Avançada com IA**: Traduções de alta qualidade preservando contexto e nuances culturais via API
 
 ## 🚀 Começando
 
@@ -31,7 +35,7 @@ O InterPRO é uma ferramenta definitiva para internacionalização de software, 
 ### Instalação
 
 #### Windows
-1. Baixe o instalador `.exe` da página de releases (link será disponibilizado)
+1. Baixe o instalador `setup.exe` da página de releases (link será disponibilizado)
 2. Execute o instalador e siga as instruções na tela
 3. Lance o InterPRO a partir do menu Iniciar ou do atalho na área de trabalho
 
@@ -40,7 +44,7 @@ O InterPRO é uma ferramenta definitiva para internacionalização de software, 
 2. Baixe o arquivo JAR da página de releases (link será disponibilizado)
 3. Execute com:
    ```bash
-   java -jar InterPRO.jar
+   java --enable-preview --module-path lib/ --add-modules  javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.swing -jar InterPRO.jar
    ```
 
 #### macOS
@@ -48,7 +52,7 @@ O InterPRO é uma ferramenta definitiva para internacionalização de software, 
 2. Baixe o arquivo JAR da página de releases (link será disponibilizado)
 3. Execute com:
    ```bash
-   java -jar InterPRO.jar
+   java --enable-preview --module-path lib/ --add-modules  javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.swing -jar InterPRO.jar
    ```
 
 ## 💡 Como Usar
@@ -68,6 +72,27 @@ O InterPRO é uma ferramenta definitiva para internacionalização de software, 
 - **Padrões Ignorados**: Configure padrões de texto que não devem ser coletados
 - **Padrões Aceitos**: Defina os padrões de texto que devem ser considerados para internacionalização
 
+## 🧠 Recursos de IA
+
+### Coleta Inteligente de Textos
+
+O InterPRO agora utiliza o modelo Claude 3.7 Sonnet para identificar com precisão textos que precisam ser internacionalizados, incluindo:
+
+- Identificação contextual de strings em código-fonte
+- Reconhecimento de mensagens culturalmente específicas
+- Diferenciação entre textos que devem ser traduzidos e termos técnicos que devem permanecer inalterados
+- Sugestão de contextos e comentários para tradutores
+
+### Tradução Contextual Avançada
+
+Nosso novo sistema de tradução com IA oferece:
+
+- Traduções que preservam o tom e contexto do original
+- Adaptação cultural de expressões idiomáticas
+- Consistência terminológica em todo o projeto
+- Suporte para terminologia técnica específica do domínio
+- Manutenção da formatação e estilos no texto traduzido
+
 ## 🧩 Exemplos de Regex por Linguagem
 
 Neste repositório serão adicionados exemplos de expressões regulares (regex) para cada linguagem de programação, marcação ou documentação suportada pelo InterPRO. Isso permitirá a identificação e extração eficiente de strings para internacionalização em diferentes contextos de desenvolvimento.
@@ -82,11 +107,10 @@ Os exemplos de regex serão organizados por linguagem e incluirão padrões otim
 
 Este repositório também será atualizado com exemplos completos de implementação para integração do sistema de internacionalização em diferentes plataformas e frameworks, incluindo:
 
-- Classes Java para carregamento e gerenciamento de arquivos de tradução
+- Implementações para carregamento e gerenciamento de arquivos de tradução
 - Implementação de seletores de idioma
 - Métodos para detecção automática de idioma do usuário
 - Integração com frameworks populares
-- Sistemas de troca dinâmica de idiomas
 
 Cada exemplo será fornecido com documentação detalhada e instruções de uso.
 
@@ -100,12 +124,29 @@ O InterPRO oferece diferentes modos de uso:
 
 ### Modo Gratuito
 - Consegue fazer tudo, porém com delay proposital e idiomas limitados mensais
+- Sem acesso aos recursos avançados de IA
 
 ### Benefícios para Doadores
 - Escaneamento rápido de strings
 - Tradutor automático super rápido e rodando traduções em paralelo
 - Acesso antecipado a novos recursos
+- 🆕 Acesso aos recursos de IA com Claude 3.7 Sonnet (baseado em pontos de doação)
+- 🆕 Coleta inteligente de textos com IA
+- 🆕 Tradução avançada com preservação de contexto e nuances culturais
+- 🆕 Processamento em lote de múltiplos idiomas simultaneamente
+- 🆕 Exportação de glossários(tags) e memórias de tradução criados pela IA
 
+## 🔄 Sistema de Pontos de Doação
+
+O InterPRO utiliza um sistema de pontos de doação para acesso aos recursos avançados:
+
+### Como Obter Pontos
+- Doações diretas via PIX, cartão ou BTC (1 real = 1 ponto) (Valores poderão ter mudança após lançamento oficial/comercial da aplicação)
+- Contribuições para o projeto (correções de bugs, melhorias, traduções)
+- Participação ativa na comunidade 
+- Indicação
+
+Os pontos não expiram e podem ser acumulados ao longo do tempo. 
 ## 📄 Documentos Importantes
 
 - [Política de Privacidade](PRIVACY_POLICY.md)
@@ -120,7 +161,3 @@ O InterPRO é um projeto independente desenvolvido por robd3v, mantido por meio 
 - Desenvolvedor: Robson Pereira (robd3v)
 - Email: robs.eng@outlook.com
 - Discord: [Em breve]
-
----
-
-© 2025 InterPRO. Todos os direitos reservados.
