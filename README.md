@@ -1,6 +1,6 @@
 ---
 
-© 2025 InterPRO. Todos os direitos reservados.# InterPRO - Sistema de Internacionalização de Interfaces de Software
+Sistema de Internacionalização de Interfaces de Software
 
 ![Versão](https://img.shields.io/badge/versão-2025.03.06.10-blue)
 ![Plataforma](https://img.shields.io/badge/plataforma-Windows%20%7C%20Linux%20%7C%20MacOS-lightgrey)
@@ -123,8 +123,7 @@ A documentação completa, incluindo tutoriais detalhados e guias de implementa�
 O InterPRO oferece diferentes modos de uso:
 
 ### Modo Gratuito
-- Consegue fazer tudo, porém com delay proposital e idiomas limitados mensais
-- Sem acesso aos recursos avançados de IA
+- Consegue fazer tudo exceto recursos de IA, (delay proposital e idiomas limitados mensais)
 
 ### Benefícios para Doadores
 - Escaneamento rápido de strings
@@ -161,3 +160,5 @@ O InterPRO é um projeto independente desenvolvido por robd3v, mantido por meio 
 - Desenvolvedor: Robson Pereira (robd3v)
 - Email: robs.eng@outlook.com
 - Discord: [Em breve]
+
+© 2025 InterPRO. Todos os direitos reservados.# InterPRO
