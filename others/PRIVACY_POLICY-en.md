@@ -105,7 +105,7 @@ We recommend that you review this Privacy Policy periodically for any changes. C
 If you have questions or concerns about this Privacy Policy or our privacy practices, contact the developer at:
 
 - Email: robs.eng@outlook.com
-- Website: [under construction]
+- Website: https://rob-d3v.github.io/InterPRO/
 
 ---
 

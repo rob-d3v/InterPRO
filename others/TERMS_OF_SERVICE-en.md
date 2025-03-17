@@ -165,7 +165,7 @@ The failure of the Developer to exercise or enforce any right or provision of th
 For any questions about these Terms of Service, please contact the developer at:
 
 - Email: robs.eng@outlook.com
-- Website: [under construction]
+- Website: https://rob-d3v.github.io/InterPRO/
 
 ---
 
