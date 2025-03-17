@@ -1,5 +1,5 @@
 ---
-
+<meta name="google-site-verification" content="9DTUyEDgUSF3UPAXTkorX5C21UvkWNPO4JcLrPKT_HI" />
 Sistema de Internacionalização de Interfaces de Software
 
 ![Versão](https://img.shields.io/badge/versão-2025.03.06.10-blue)
