@@ -148,8 +148,8 @@ O InterPRO utiliza um sistema de pontos de doação para acesso aos recursos ava
 Os pontos não expiram e podem ser acumulados ao longo do tempo. 
 ## 📄 Documentos Importantes
 
-- [Política de Privacidade](PRIVACY_POLICY.md)
-- [Termos de Serviço](TERMS_OF_SERVICE.md)
+- [Política de Privacidade](privacy-policy.html)
+- [Termos de Serviço](terms-of-service.html)
 
 ## 🙏 Agradecimentos
 
