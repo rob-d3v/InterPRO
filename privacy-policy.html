@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - InterPRO</title>
+    <meta name="description" content="Política de Privacidade do InterPRO - Informações sobre como coletamos, usamos, divulgamos e protegemos suas informações.">
+    <style>
+        :root {
+            --bg-dark: #1a1a1d;
+            --bg-darker: #121214;
+            --bg-card: rgba(45, 45, 55, 0.7);
+            --accent-color: #7c4dff;
+            --accent-hover: #6236ff;
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.7);
+            --text-muted: rgba(255, 255, 255, 0.5);
+            --border-light: rgba(255, 255, 255, 0.08);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+            font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(to bottom right, var(--bg-dark), var(--bg-darker));
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
+        
+        header {
+            background-color: rgba(28, 28, 33, 0.9);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .logo {
+            height: 50px;
+            width: auto;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+        
+        .nav-links a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .policy-container {
+            background-color: var(--bg-card);
+            border-radius: 12px;
+            padding: 2rem;
+            border: 1px solid var(--border-light);
+            margin: 2rem 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            background: linear-gradient(to right, #fff, #b388ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem;
+            color: #b388ff;
+            border-bottom: 1px solid var(--border-light);
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            font-size: 1.3rem;
+            margin: 1.5rem 0 0.8rem;
+            color: var(--text-primary);
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+        
+        ul, ol {
+            margin: 1rem 0 1rem 2rem;
+            color: var(--text-secondary);
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        strong {
+            color: var(--text-primary);
+        }
+        
+        .updated-date {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+        
+        footer {
+            background-color: rgba(28, 28, 33, 0.9);
+            padding: 2rem;
+            text-align: center;
+            border-top: 1px solid var(--border-light);
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--text-primary);
+        }
+        
+        .copyright {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            main {
+                padding: 1rem;
+            }
+            
+            .policy-container {
+                padding: 1.5rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="InterPRO Logo" class="logo">
+            <h1>InterPRO</h1>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Início</a>
+            <a href="index.html#features">Recursos</a>
+            <a href="index.html#modes">Planos</a>
+            <a href="index.html#docs">Documentação</a>
+            <a href="index.html#contact">Contato</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>POLÍTICA DE PRIVACIDADE</h1>
+        <p class="updated-date">Última atualização: 06 de março de 2025</p>
+        
+        <div class="policy-container">
+            <h2>1. INTRODUÇÃO</h2>
+            <p>A InterPRO ("nós", "nosso" ou "aplicativo") está comprometida em proteger sua privacidade. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações quando você utiliza nosso aplicativo desktop de internacionalização de interfaces de software.</p>
+            <p>Por favor, leia esta política cuidadosamente para entender nossas práticas com relação aos seus dados e como iremos tratá-los. Ao utilizar o InterPRO, você concorda com a coleta e uso de informações de acordo com esta política.</p>
+            
+            <h2>2. INFORMAÇÕES QUE COLETAMOS</h2>
+            
+            <h3>2.1 Informações fornecidas diretamente por você:</h3>
+            <ul>
+                <li><strong>Informações de conta</strong>: Quando você se registra para utilizar recursos específicos do aplicativo, coletamos seu nome, endereço de e-mail e outras informações de contato. Utilizamos o AWS Cognito para gerenciar o sistema de usuários e autenticação. Você também pode optar por se autenticar utilizando sua conta Google.</li>
+                <li><strong>Doações e pontos</strong>: Caso você opte por realizar doações para apoiar o desenvolvimento do InterPRO, coletamos as informações necessárias para processar sua transação financeira através do EFI BANK, que é utilizado para gerenciar pagamentos via PIX e cartão. Também mantemos registro dos pontos que você acumula através de doações e contribuições.</li>
+                <li><strong>Feedback e suporte</strong>: Informações que você nos fornece ao relatar problemas, solicitar suporte, ou responder a pesquisas.</li>
+            </ul>
+            
+            <h3>2.2 Informações coletadas automaticamente:</h3>
+            <ul>
+                <li><strong>Dados de uso</strong>: Informações sobre como você utiliza o aplicativo, incluindo estatísticas de uso, preferências de configuração, idiomas utilizados e recursos acessados.</li>
+                <li><strong>Informações técnicas</strong>: Dados sobre seu sistema operacional, versão do aplicativo, identificadores de dispositivo e outros dados técnicos necessários para o funcionamento adequado do aplicativo.</li>
+                <li><strong>Arquivos e dados processados</strong>: Para fornecer os serviços de internacionalização, o InterPRO processa arquivos e textos que você escolhe analisar usando o aplicativo.</li>
+                <li><strong>Uso de recursos de IA</strong>: Quando você utiliza recursos avançados de IA, coletamos informações sobre o tipo de solicitação, consumo de pontos e métricas de desempenho (sem armazenar o conteúdo processado).</li>
+            </ul>
+            
+            <h2>3. COMO UTILIZAMOS SUAS INFORMAÇÕES</h2>
+            <p>Utilizamos as informações coletadas para:</p>
+            <ul>
+                <li>Fornecer, manter e melhorar o InterPRO e seus recursos;</li>
+                <li>Processar e gerenciar suas doações e pontos;</li>
+                <li>Personalizar sua experiência e recordar suas preferências;</li>
+                <li>Enviar atualizações, notificações técnicas e mensagens de suporte;</li>
+                <li>Analisar tendências de uso e otimizar o desempenho do aplicativo;</li>
+                <li>Detectar, prevenir e resolver problemas técnicos;</li>
+                <li>Desenvolver novas funcionalidades baseadas no feedback e uso dos usuários;</li>
+                <li>Gerenciar o sistema de pontos de doação e controlar o acesso aos recursos premium.</li>
+            </ul>
+            
+            <h2>4. COMPARTILHAMENTO DE INFORMAÇÕES</h2>
+            <p>Não vendemos, comercializamos ou transferimos suas informações pessoais identificáveis para terceiros, exceto nas seguintes circunstâncias:</p>
+            <ul>
+                <li><strong>Serviços de Autenticação</strong>: Utilizamos AWS Cognito para gerenciar contas de usuários e Google para autenticação opcional, compartilhando as informações necessárias para estes serviços funcionarem.</li>
+                <li><strong>Serviço de Tradução</strong>: Ao utilizar o tradutor automático básico, textos são enviados para a API do Google Tradutor.</li>
+                <li><strong>Serviços de IA</strong>: Ao utilizar recursos avançados de IA, textos são processados temporariamente através de nossa infraestrutura AWS que utiliza a API Claude da Anthropic.</li>
+                <li><strong>Processadores de pagamento</strong>: Para processar doações e pagamentos, compartilhamos informações necessárias com o EFI BANK, nosso processador de pagamentos via PIX e cartão.</li>
+                <li><strong>Cumprimento legal</strong>: Podemos divulgar suas informações quando acreditarmos, de boa fé, que tal divulgação é necessária para cumprir uma obrigação legal, proteger nossos direitos, sua segurança ou a segurança de outros.</li>
+                <li><strong>Consentimento</strong>: Com seu consentimento expresso para compartilhar informações específicas.</li>
+            </ul>
+            
+            <h2>5. SEGURANÇA DOS DADOS</h2>
+            <p>Implementamos medidas de segurança técnicas e organizacionais adequadas para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição. No entanto, nenhum método de transmissão pela internet ou método de armazenamento eletrônico é 100% seguro, e não podemos garantir segurança absoluta.</p>
+            
+            <h2>6. SEUS DADOS E CONTEÚDOS</h2>
+            
+            <h3>6.1 Arquivos e textos processados</h3>
+            <p>O InterPRO processa temporariamente os arquivos e textos que você escolhe analisar para fornecer serviços de internacionalização. Estes conteúdos são processados localmente no seu dispositivo. Por padrão, não coletamos, armazenamos ou transmitimos o conteúdo de seus arquivos para nossos servidores, exceto quando:</p>
+            <ul>
+                <li>É necessário para fornecer recursos específicos que você solicita explicitamente, como tradução automática;</li>
+                <li>Você utiliza recursos avançados de IA que requerem processamento em nuvem;</li>
+                <li>Você opta por compartilhar dados com nossa equipe para fins de suporte técnico.</li>
+            </ul>
+            
+            <h3>6.2 Tradução automática básica</h3>
+            <p>Quando você utiliza o recurso de tradução automática básica, os textos a serem traduzidos são enviados à API do Google Tradutor. Ao utilizar este recurso, você concorda com os termos e políticas de privacidade do Google, disponíveis em <a href="https://policies.google.com/privacy" style="color: #b388ff;">https://policies.google.com/privacy</a>.</p>
+            
+            <h3>6.3 Recursos avançados de IA</h3>
+            <p>Quando você utiliza os recursos de IA para coleta inteligente de textos ou tradução avançada:</p>
+            <ul>
+                <li>Os textos são processados através de nossa infraestrutura AWS que utiliza a API Claude da Anthropic</li>
+                <li>O conteúdo é transmitido de forma segura e criptografada</li>
+                <li>Não armazenamos permanentemente os textos processados pela IA</li>
+                <li>Apenas metadados sobre a transação (como timestamp, quantidade de pontos usados e métricas de desempenho) são armazenados</li>
+                <li>Os resultados gerados pela IA são retornados para seu dispositivo local e não são retidos em nossos servidores</li>
+            </ul>
+            
+            <h2>7. RETENÇÃO DE DADOS</h2>
+            <p>Mantemos suas informações pessoais apenas pelo tempo necessário para cumprir os propósitos descritos nesta Política de Privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei.</p>
+            
+            <h3>7.1 Retenção de dados relacionados a pontos</h3>
+            <p>Informações relacionadas ao sistema de pontos de doação (histórico de doações, saldo de pontos, histórico de uso) são mantidas enquanto você mantiver uma conta ativa no InterPRO.</p>
+            
+            <h2>8. SEUS DIREITOS DE PRIVACIDADE</h2>
+            <p>Dependendo da sua localização, você pode ter direitos específicos relacionados aos seus dados pessoais, incluindo:</p>
+            <ul>
+                <li>Acessar e receber uma cópia de seus dados pessoais;</li>
+                <li>Corrigir dados imprecisos ou incompletos;</li>
+                <li>Excluir seus dados pessoais;</li>
+                <li>Restringir ou objetar ao processamento de seus dados;</li>
+                <li>Portabilidade de dados;</li>
+                <li>Retirar o consentimento a qualquer momento, quando o processamento é baseado em seu consentimento.</li>
+            </ul>
+            <p>Para exercer estes direitos, entre em contato conosco através das informações fornecidas abaixo.</p>
+            
+            <h2>9. PRIVACIDADE DE CRIANÇAS</h2>
+            <p>O InterPRO não é direcionado a pessoas menores de 18 anos. Não coletamos intencionalmente informações pessoais identificáveis de crianças. Se você é pai ou responsável e acredita que seu filho nos forneceu informações pessoais, entre em contato conosco para que possamos tomar as medidas apropriadas.</p>
+            
+            <h2>10. ALTERAÇÕES A ESTA POLÍTICA DE PRIVACIDADE</h2>
+            <p>Podemos atualizar nossa Política de Privacidade periodicamente. Notificaremos você sobre quaisquer alterações publicando a nova Política de Privacidade nesta página e atualizando a data de "última atualização" no topo deste documento.</p>
+            <p>Recomendamos que você revise esta Política de Privacidade periodicamente para quaisquer alterações. Alterações a esta Política de Privacidade são efetivas quando publicadas nesta página.</p>
+            
+            <h2>11. CONTATO</h2>
+            <p>Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade ou nossas práticas de privacidade, entre em contato com o desenvolvedor através de:</p>
+            <ul>
+                <li>Email: <a href="mailto:robs.eng@outlook.com" style="color: #b388ff;">robs.eng@outlook.com</a></li>
+                <li>Website: [em construção]</li>
+            </ul>
+            
+            <p style="margin-top: 2rem;">© 2025 InterPRO. Todos os direitos reservados.<br>Desenvolvido por robd3v</p>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Início</a>
+            <a href="terms-of-service.html">Termos de Serviço</a>
+            <a href="license.html">Licença</a>
+            <a href="https://github.com/rob-d3v/InterPRO">GitHub</a>
+        </div>
+        <div class="copyright">© 2025 InterPRO. Todos os direitos reservados. Desenvolvido por robd3v</div>
+    </footer>
+</body>
+</html>

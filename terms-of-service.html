@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termos de Serviço - InterPRO</title>
+    <meta name="description" content="Termos de Serviço do InterPRO - Termos e condições que regem o uso do InterPRO e os serviços relacionados.">
+    <style>
+        :root {
+            --bg-dark: #1a1a1d;
+            --bg-darker: #121214;
+            --bg-card: rgba(45, 45, 55, 0.7);
+            --accent-color: #7c4dff;
+            --accent-hover: #6236ff;
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.7);
+            --text-muted: rgba(255, 255, 255, 0.5);
+            --border-light: rgba(255, 255, 255, 0.08);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+            font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(to bottom right, var(--bg-dark), var(--bg-darker));
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
+        
+        header {
+            background-color: rgba(28, 28, 33, 0.9);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .logo {
+            height: 50px;
+            width: auto;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+        
+        .nav-links a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .terms-container {
+            background-color: var(--bg-card);
+            border-radius: 12px;
+            padding: 2rem;
+            border: 1px solid var(--border-light);
+            margin: 2rem 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            background: linear-gradient(to right, #fff, #b388ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem;
+            color: #b388ff;
+            border-bottom: 1px solid var(--border-light);
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            font-size: 1.3rem;
+            margin: 1.5rem 0 0.8rem;
+            color: var(--text-primary);
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+        
+        ul, ol {
+            margin: 1rem 0 1rem 2rem;
+            color: var(--text-secondary);
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        strong {
+            color: var(--text-primary);
+        }
+        
+        .updated-date {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+        
+        footer {
+            background-color: rgba(28, 28, 33, 0.9);
+            padding: 2rem;
+            text-align: center;
+            border-top: 1px solid var(--border-light);
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--text-primary);
+        }
+        
+        .copyright {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            main {
+                padding: 1rem;
+            }
+            
+            .terms-container {
+                padding: 1.5rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="InterPRO Logo" class="logo">
+            <h1>InterPRO</h1>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Início</a>
+            <a href="index.html#features">Recursos</a>
+            <a href="index.html#modes">Planos</a>
+            <a href="index.html#docs">Documentação</a>
+            <a href="index.html#contact">Contato</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>TERMOS DE SERVIÇO</h1>
+        <p class="updated-date">Última atualização: 06 de março de 2025</p>
+        
+        <div class="terms-container">
+            <h2>1. ACEITAÇÃO DOS TERMOS</h2>
+            <p>Ao baixar, instalar, acessar ou utilizar o InterPRO ("Aplicativo", "Software", "nós", "nosso"), você concorda em ficar vinculado a estes Termos de Serviço ("Termos"). Se você não concordar com estes Termos, por favor, não utilize o Aplicativo.</p>
+            <p>O InterPRO é uma ferramenta de software para internacionalização de interfaces, desenvolvida por robd3v ("Desenvolvedor"), atualmente em fase de testes e mantida por doações voluntárias.</p>
+            
+            <h2>2. DESCRIÇÃO DO SERVIÇO</h2>
+            <p>O InterPRO (Versão 2025.03.06.10) é um sistema de internacionalização de interfaces de software que oferece as seguintes funcionalidades:</p>
+            <ul>
+                <li>Suporte para diversas linguagens de Programação/Marcação e Documentação</li>
+                <li>Compatibilidade multiplataforma (Windows, Linux e Mac OS)</li>
+                <li>Motor de Regex avançado para identificação e substituição precisa de palavras e textos</li>
+                <li>Sistema de sincronização com estruturas de internacionalização existentes</li>
+                <li>Interação com sistemas de CI/CD</li>
+                <li>Tradutor automático com suporte a múltiplos idiomas</li>
+                <li>Automação de testes (função prevista para futuras versões)</li>
+                <li><strong>Coleta Inteligente de Textos com IA</strong>: Identificação contextual de strings utilizando Claude 3.7 Sonnet</li>
+                <li><strong>Tradução Avançada com IA</strong>: Traduções de alta qualidade preservando contexto e nuances culturais</li>
+            </ul>
+            
+            <h2>3. LICENÇA DE USO</h2>
+            
+            <h3>3.1 Concessão de Licença</h3>
+            <p>Sujeito aos termos e condições deste acordo, o Desenvolvedor concede a você uma licença limitada, não exclusiva, não transferível, revogável para baixar, instalar e utilizar o Aplicativo para fins pessoais ou comerciais.</p>
+            
+            <h3>3.2 Restrições de Licença</h3>
+            <p>Exceto conforme expressamente previsto nestes Termos, você não pode:</p>
+            <ul>
+                <li>Copiar, modificar, adaptar, traduzir ou criar trabalhos derivados do Aplicativo;</li>
+                <li>Descompilar, fazer engenharia reversa, desmontar ou tentar derivar o código-fonte do Aplicativo;</li>
+                <li>Vender, sublicenciar, alugar, arrendar, distribuir ou transferir o Aplicativo a terceiros;</li>
+                <li>Remover, alterar ou obscurecer quaisquer direitos autorais, marcas registradas ou outros avisos de propriedade contidos no Aplicativo;</li>
+                <li>Usar o Aplicativo para atividades ilegais ou que violem direitos de terceiros.</li>
+            </ul>
+            
+            <h2>4. PROPRIEDADE INTELECTUAL</h2>
+            
+            <h3>4.1 Direitos Reservados</h3>
+            <p>O Aplicativo, incluindo, mas não se limitando a, software, código, design, texto, gráficos, logotipos, ícones e imagens, são propriedade do Desenvolvedor e estão protegidos por leis de direitos autorais, marcas registradas e outras leis de propriedade intelectual.</p>
+            
+            <h3>4.2 Feedback</h3>
+            <p>Se você fornecer qualquer feedback, ideias, sugestões ou recomendações ao Desenvolvedor relacionadas ao Aplicativo ("Feedback"), o Desenvolvedor terá o direito de usar livremente tal Feedback sem qualquer obrigação para com você.</p>
+            
+            <h2>5. MODELOS DE USO, DOAÇÕES E PONTOS</h2>
+            
+            <h3>5.1 Modelo de Uso</h3>
+            <p>O InterPRO possui um modo completamente gratuito com funcionalidades básicas disponíveis para todos os usuários. Recursos adicionais e benefícios, incluindo as funcionalidades de IA, são disponibilizados através do sistema de pontos de doação.</p>
+            
+            <h3>5.2 Sistema de Pontos de Doação</h3>
+            <p>O desenvolvimento e manutenção do InterPRO são apoiados por um sistema de pontos obtidos através de doações voluntárias. Os pontos podem ser acumulados das seguintes formas:</p>
+            <ul>
+                <li>Doações diretas via PIX, cartão ou BTC (1 real = 1 ponto)</li>
+                <li>Contribuições para o projeto (correções de bugs, melhorias, traduções)</li>
+                <li>Participação ativa na comunidade e fóruns</li>
+            </ul>
+            <p>Os pontos não expiram e podem ser acumulados ao longo do tempo.</p>
+            <p>O Desenvolvedor reserva-se o direito de modificar o sistema de pontos a qualquer momento.</p>
+            
+            <h3>5.4 Processamento de Pagamentos</h3>
+            <p>As doações e pagamentos são processados através do EFI BANK, que gerencia transações via PIX e cartão. Ao realizar uma doação, você concorda com os termos e políticas do EFI BANK. Futuramente será implementada função de doação com BTC.</p>
+            
+            <h3>5.5 Reembolsos</h3>
+            <p>Devido à natureza dos benefícios digitais oferecidos, os reembolsos geralmente não são oferecidos. Em circunstâncias excepcionais, os pedidos de reembolso podem ser considerados caso a caso. Os pontos não utilizados não são reembolsáveis.</p>
+            
+            <h2>6. CONTEÚDO DO USUÁRIO</h2>
+            
+            <h3>6.1 Propriedade do Conteúdo</h3>
+            <p>Você mantém todos os direitos de propriedade sobre qualquer conteúdo que processa através do Aplicativo, incluindo arquivos de código, textos e traduções ("Conteúdo do Usuário").</p>
+            
+            <h3>6.2 Licença de Conteúdo</h3>
+            <p>Você concede ao InterPRO uma licença limitada para processar seu Conteúdo do Usuário exclusivamente para fornecer e melhorar os serviços do Aplicativo.</p>
+            
+            <h3>6.3 Responsabilidade pelo Conteúdo</h3>
+            <p>Você é o único responsável por todo o Conteúdo do Usuário que processa através do Aplicativo, incluindo a legalidade e adequação de tal conteúdo.</p>
+            
+            <h3>6.4 Processamento de Conteúdo com IA</h3>
+            <p>Ao utilizar os recursos de IA do Aplicativo:</p>
+            <ul>
+                <li>Você concorda que seu Conteúdo do Usuário poderá ser processado temporariamente pelos sistemas de IA</li>
+                <li>O Desenvolvedor não armazena permanentemente o conteúdo processado pelos sistemas de IA</li>
+                <li>O Desenvolvedor implementa medidas de segurança razoáveis para proteger seus dados durante o processamento</li>
+                <li>As traduções e textos identificados pelos sistemas de IA devem ser revisados por você antes da implementação</li>
+            </ul>
+            
+            <h2>7. SERVIÇOS DE TERCEIROS</h2>
+            
+            <h3>7.1 Traduções Automáticas</h3>
+            <p>O recurso de tradução automática básica do Aplicativo utiliza a API do Google Tradutor para processar traduções. O uso desse recurso está sujeito aos termos e políticas do Google disponíveis em <a href="https://policies.google.com/terms" style="color: #b388ff;">https://policies.google.com/terms</a>.</p>
+            
+            <h3>7.2 Serviços de IA</h3>
+            <p>Os recursos avançados de IA utilizam a API Claude 3.7 Sonnet da Anthropic através de infraestrutura AWS. O uso desses recursos está sujeito às políticas do InterPRO e, indiretamente, às políticas da Anthropic disponíveis em <a href="https://www.anthropic.com/policies" style="color: #b388ff;">https://www.anthropic.com/policies</a>.</p>
+            
+            <h3>7.3 Autenticação e Gerenciamento de Usuários</h3>
+            <p>O InterPRO utiliza AWS Cognito para gerenciamento de usuários e oferece opção de autenticação através do Google. Ao usar esses métodos de autenticação, você está sujeito aos termos e políticas de privacidade desses provedores.</p>
+            
+            <h3>7.4 Processamento de Pagamentos</h3>
+            <p>O Aplicativo utiliza o EFI BANK para gerenciar pagamentos via PIX e cartão. Ao realizar uma doação, você está sujeito aos termos e políticas do EFI BANK.</p>
+            
+            <h3>7.5 Integração com Outros Sistemas</h3>
+            <p>O Aplicativo pode ser integrado com sistemas CI/CD e outras ferramentas de terceiros. O Desenvolvedor não é responsável pelo funcionamento desses sistemas ou por quaisquer problemas decorrentes da integração.</p>
+            
+            <h2>8. ISENÇÕES DE RESPONSABILIDADE</h2>
+            
+            <h3>8.1 Estado de Desenvolvimento</h3>
+            <p>O InterPRO é um software em desenvolvimento, atualmente em fase de testes. Pode conter erros, bugs ou outros problemas que podem afetar seu desempenho.</p>
+            
+            <h3>8.2 Sem Garantias</h3>
+            <p>O APLICATIVO É FORNECIDO "COMO ESTÁ" E "CONFORME DISPONÍVEL", SEM GARANTIAS DE QUALQUER TIPO, EXPRESSAS OU IMPLÍCITAS. O DESENVOLVEDOR EXPRESSAMENTE SE ISENTA DE TODAS AS GARANTIAS, INCLUINDO, MAS NÃO SE LIMITANDO A, GARANTIAS IMPLÍCITAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO.</p>
+            
+            <h3>8.3 Limitação de Funcionalidade</h3>
+            <p>O Desenvolvedor não garante que:</p>
+            <ul>
+                <li>O Aplicativo atenderá aos seus requisitos específicos;</li>
+                <li>O Aplicativo será ininterrupto, oportuno, seguro ou livre de erros;</li>
+                <li>Os resultados que podem ser obtidos do uso do Aplicativo serão precisos ou confiáveis;</li>
+                <li>Quaisquer erros no Aplicativo serão corrigidos.</li>
+            </ul>
+            
+            <h3>8.4 Isenção Específica para Recursos de IA</h3>
+            <p>OS RECURSOS DE IA SÃO FORNECIDOS "NO ESTADO EM QUE SE ENCONTRAM" E O DESENVOLVEDOR NÃO GARANTE A PRECISÃO, COMPLETUDE, ADEQUAÇÃO OU QUALIDADE DOS RESULTADOS OBTIDOS ATRAVÉS DO USO DESTES RECURSOS. É RESPONSABILIDADE DO USUÁRIO REVISAR E VERIFICAR TODAS AS TRADUÇÕES E TEXTOS PROCESSADOS PELA IA ANTES DE SUA IMPLEMENTAÇÃO.</p>
+            
+            <h2>9. LIMITAÇÃO DE RESPONSABILIDADE</h2>
+            <p>EM NENHUMA CIRCUNSTÂNCIA O DESENVOLVEDOR SERÁ RESPONSÁVEL POR QUAISQUER DANOS DIRETOS, INDIRETOS, INCIDENTAIS, ESPECIAIS, EXEMPLARES OU CONSEQUENCIAIS (INCLUINDO, MAS NÃO SE LIMITANDO A, DANOS POR PERDA DE LUCROS, PERDA DE DADOS, INTERRUPÇÃO DE NEGÓCIOS OU AQUISIÇÃO DE BENS OU SERVIÇOS SUBSTITUTOS) DECORRENTES DO USO OU INCAPACIDADE DE USAR O APLICATIVO, MESMO QUE O DESENVOLVEDOR TENHA SIDO AVISADO DA POSSIBILIDADE DE TAIS DANOS.</p>
+            
+            <h2>10. INDENIZAÇÃO</h2>
+            <p>Você concorda em defender, indenizar e isentar o Desenvolvedor, seus afiliados, licenciadores e prestadores de serviços de e contra quaisquer reclamações, responsabilidades, danos, julgamentos, prêmios, perdas, custos, despesas ou honorários (incluindo honorários advocatícios razoáveis) decorrentes de ou relacionados à sua violação destes Termos ou uso do Aplicativo.</p>
+            
+            <h2>11. MODIFICAÇÕES DO APLICATIVO E DOS TERMOS</h2>
+            
+            <h3>11.1 Modificações do Aplicativo</h3>
+            <p>O Desenvolvedor reserva-se o direito de modificar, suspender ou descontinuar, temporária ou permanentemente, o Aplicativo ou qualquer recurso ou funcionalidade, com ou sem aviso prévio e sem responsabilidade perante você.</p>
+            
+            <h3>11.2 Modificações dos Termos</h3>
+            <p>O Desenvolvedor pode revisar estes Termos a qualquer momento, publicando os termos atualizados no Aplicativo ou no site associado. É sua responsabilidade verificar estes Termos periodicamente para alterações. Seu uso continuado do Aplicativo após a publicação de quaisquer alterações constitui aceitação de tais alterações.</p>
+            
+            <h3>11.3 Modificações do Sistema de Pontos</h3>
+            <p>O Desenvolvedor reserva-se o direito de modificar o sistema de pontos, incluindo a conversão de doações para pontos, os custos de recursos em pontos e os benefícios disponíveis, a qualquer momento e sem aviso prévio.</p>
+            
+            <h2>12. RESCISÃO</h2>
+            <p>O Desenvolvedor pode, a seu exclusivo critério, encerrar seu acesso e uso do Aplicativo, com ou sem motivo, com ou sem aviso prévio, sem incorrer em responsabilidade. Em caso de rescisão, quaisquer pontos não utilizados serão perdidos e não serão reembolsados.</p>
+            
+            <h2>13. DISPOSIÇÕES GERAIS</h2>
+            
+            <h3>13.1 Lei Aplicável</h3>
+            <p>Estes Termos e seu uso do Aplicativo serão regidos e interpretados de acordo com as leis do Brasil, sem considerar suas disposições sobre conflitos de leis.</p>
+            
+            <h3>13.2 Resolução de Disputas</h3>
+            <p>Quaisquer disputas decorrentes destes Termos ou relacionadas ao Aplicativo serão resolvidas por meio de negociação de boa fé. Se a disputa não puder ser resolvida amigavelmente, ela será submetida à jurisdição exclusiva dos tribunais do Brasil.</p>
+            
+            <h3>13.3 Integralidade do Acordo</h3>
+            <p>Estes Termos constituem o acordo integral entre você e o Desenvolvedor com relação ao Aplicativo e substituem todos os acordos e entendimentos anteriores, sejam escritos ou orais.</p>
+            
+            <h3>13.4 Autonomia das Cláusulas</h3>
+            <p>Se qualquer disposição destes Termos for considerada inválida, ilegal ou inexequível, a validade, legalidade ou exequibilidade das disposições restantes não será, de forma alguma, afetada ou prejudicada.</p>
+            
+            <h3>13.5 Renúncia</h3>
+            <p>A falha do Desenvolvedor em exercer ou fazer valer qualquer direito ou disposição destes Termos não constituirá uma renúncia a tal direito ou disposição.</p>
+            
+            <h2>14. CONTATO</h2>
+            <p>Para quaisquer perguntas sobre estes Termos de Serviço, entre em contato com o desenvolvedor através de:</p>
+            <ul>
+                <li>Email: <a href="mailto:robs.eng@outlook.com" style="color: #b388ff;">robs.eng@outlook.com</a></li>
+                <li>Website: [em construção]</li>
+            </ul>
+            
+            <p style="margin-top: 2rem;">© 2025 InterPRO. Todos os direitos reservados.<br>Desenvolvido por robd3v</p>
